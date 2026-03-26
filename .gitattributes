@@ -1,2 +1,8 @@
-# Auto detect text files and perform LF normalization
+# Handle line endings automatically for files detected as text 
+# and leave binary files (images/PDFs) alone.
 * text=auto
+
+# Explicitly set all .tex, .md, and .txt files to LF (Standard for Git)
+*.tex text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
