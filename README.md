@@ -16,7 +16,7 @@ This repository contains the complete mechanical engineering and design record f
 
 
 
-The core objective was to engineer a high-stiffness, mass-optimized desktop manipulator capable of handling a \*\*500g payload\*\* at a \*\*512mm reach\*\*, utilizing commercially available NEMA 17 actuators and planetary reductions. Every design decision is evaluated against a strict \*\*Safety Factor of 1.5\*\*.
+The core objective was to engineer a high-stiffness, mass-optimized desktop manipulator capable of handling a \*\*500g payload\*\*, utilizing commercially available NEMA 17 actuators and planetary reductions. Every design decision is evaluated against a strict \*\*Safety Factor of 1.5\*\*.
 
 
 
@@ -26,31 +26,21 @@ The kinematic chain was aggressively optimized to strip distal mass, reducing th
 
 
 
-| Joint | Function | Drive System | Static Torque Output | Margin (vs. Peak Load) |
+| Joint | Function | Drive System 
 
 
 
-| \*\*J1\*\* | Base Yaw | NEMA 17 + 27:1 Planetary | 9.18 Nm | +32% |
+| \*\*J1\*\* | Base Yaw | NEMA 17 + 27:1 Planetary 
 
-| \*\*J2\*\* | Shoulder Pitch | NEMA 17 + 27:1 Planetary | 9.18 Nm | +82.5% |
+| \*\*J2\*\* | Shoulder Pitch | NEMA 17 + 27:1 Planetary 
 
-| \*\*J3\*\* | Elbow Pitch | NEMA 17 + 19:1 Planetary | 6.46 Nm | +172% |
+| \*\*J3\*\* | Elbow Pitch | NEMA 17 + 19:1 Planetary
 
-| \*\*J4\*\* | Wrist Pitch | NEMA 17 + 3:1 Reducer | 1.02 Nm | +63% |
+| \*\*J4\*\* | Wrist Pitch | NEMA 17 + 3:1 Reducer 
 
-| \*\*J5\*\* | Wrist Yaw | NEMA 17 Pancake (Direct) | 0.10 Nm | +669% |
+| \*\*J5\*\* | Wrist Yaw | NEMA 17 Pancake (Direct) 
 
-| \*\*J6\*\* | End Effector | NEMA 17 Pancake (Direct) | 0.10 Nm | +33% |
-
-
-
-\## 🧠 Engineering The Bottleneck: Kinematic Locking
-
-A critical challenge in multibody dynamic simulation is overcoming "Kinematic Locking" a scenario where standard structural CAD mates over-constrain the degrees of freedom, causing matrix singularities and crashing the physics engine. 
-
-
-
-To solve this, the spatial constraint logic was completely overhauled. A strict, redundancy-free \*\*"Concentric + Coincident"\*\* mating strategy was deployed across all joint clusters (J1-J6). This solution successfully enabled the engine to calculate mass inertia, gravitational loads, and dynamic motion accurately, establishing a robust pipeline for advanced control systems testing.
+| \*\*J6\*\* | End Effector | NEMA 17 Pancake (Direct)
 
 
 
