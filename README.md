@@ -15,7 +15,6 @@
 This repository contains the complete mechanical engineering and design record for \*\*TRON\*\*, a six-degree-of-freedom (6-DOF) serial robotic arm. The project bridges physical CAD geometry with software-in-the-loop control logic, resulting in a redundancy-free digital twin capable of validating spatial trajectories and inverse kinematics within a MATLAB/Simscape physics engine.
 
 
-
 The core objective was to engineer a high-stiffness, mass-optimized desktop manipulator capable of handling a \*\*500g payload\*\*, utilizing commercially available NEMA 17 actuators and planetary reductions. Every design decision is evaluated against a strict \*\*Safety Factor of 1.5\*\*.
 
 
