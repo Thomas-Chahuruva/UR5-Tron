@@ -54,11 +54,7 @@ To solve this, the spatial constraint logic was completely overhauled. A strict,
 
 
 
-\## 📂 Repository Contents
 
-\* `Documentation/` - The comprehensive engineering specification, static torque analysis, and mathematical proofs (PDF).
-
-\* `Renders/` - High-fidelity architectural teardowns and contextual environment visualizations.
 
 
 
