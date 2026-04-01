@@ -28,7 +28,7 @@ The kinematic chain was aggressively optimized to strip distal mass, reducing th
 
 | Joint | Function | Drive System | Static Torque Output | Margin (vs. Peak Load) |
 
-| :--- | :--- | :--- | :--- | :--- |
+
 
 | \*\*J1\*\* | Base Yaw | NEMA 17 + 27:1 Planetary | 9.18 Nm | +32% |
 
@@ -46,7 +46,7 @@ The kinematic chain was aggressively optimized to strip distal mass, reducing th
 
 \## 🧠 Engineering The Bottleneck: Kinematic Locking
 
-A critical challenge in multibody dynamic simulation is overcoming "Kinematic Locking"—a scenario where standard structural CAD mates over-constrain the degrees of freedom, causing matrix singularities and crashing the physics engine. 
+A critical challenge in multibody dynamic simulation is overcoming "Kinematic Locking" a scenario where standard structural CAD mates over-constrain the degrees of freedom, causing matrix singularities and crashing the physics engine. 
 
 
 
