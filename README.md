@@ -1,4 +1,4 @@
-# UR5-Tron: 6-DOF Robotic Digital Twin
+# Tron: 6-DOF Robotic Digital Twin
 
 **Engineer:** Thomas Chahuruva  
 **Project Initiation:** March 2026  
